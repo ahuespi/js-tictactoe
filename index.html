@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="column">
+            <div class="box box-1"><button value="1" onclick="selectOption(1)"></button></div>
+            <div class="box box-2"><button value="2" onclick="selectOption(2)"></button></div>
+            <div class="box box-3"><button value="3" onclick="selectOption(3)"></button></div>
+        </div>
+        <div class="column">
+            <div class="box box-4"><button value="4" onclick="selectOption(4)"></button></div>
+            <div class="box box-5"><button value="5" onclick="selectOption(5)"></button></div>
+            <div class="box box-6"><button value="6" onclick="selectOption(6)"></button></div>
+
+        </div>
+        <div class="column">
+            <div class="box box-7"><button value="7" onclick="selectOption(7)"></button></div>
+            <div class="box box-8"><button value="8" onclick="selectOption(8)"></button></div>
+            <div class="box box-9"><button value="9" onclick="selectOption(9)"></button></div>
+        </div>
+    </div>
+    <button class="startGame" id="startGame" onclick="startGame()">EMPEZAR EL JUEGO</button>
+    <div class="players">
+        <div class="player-1">
+            <h4>Jugador N° 1</h4>
+            <span id="player1"></span>
+            
+        </div>
+        <div class="player-2">
+            <h4>Jugador N° 2</h4>
+            <span id="player2"></span>
+        </div>
+    </div>
+    <div id="messageStart" class="messageStart"></div>
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
